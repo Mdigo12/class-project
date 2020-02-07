@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(30, 148, 156);
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color  on hover */
+        li a:hover {
+            background-color: rgb(163, 16, 16);
+        }
+
+        #notes {
+            float: left;
+            width: 25%;
+        }
+
+        #image {
+            padding: 20px;
+
+        }
+
+        .obj {
+
+            float: right;
+            width: 25%;
+        }
+
+        div {
+            text-align: center;
+            border: solid;
+            color: darkgreen;
+            border-radius: 5px;
+            width: 80vw;
+            height: 80vh;
+            margin-left: 30px;
+        }
+
+        h1 {
+            color: blue;
+            background-color: chartreuse;
+            font-family: cursive;
+            text-align: center;
+        }
+        footer{
+            background-color: grey;
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#objectives">Objectives</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#notification">Notification</a></li>
+      </ul>
+    <div>
+        <section id="notes">
+            <h1>
+                Class Project
+            </h1>
+
+            <p>
+                Hmm. We’re having trouble finding that site.
+                We can’t connect to the server at fonts.google.com.
+                If that address is correct, here are three other things you can try: again later.
+                <ol style="font-style: normal;" type="a">
+                    <li>Check your network connection.</li>
+                    <li>If you are connected but behind a firewall, check that Firefox has permission to access the Web.
+                    </li>
+                </ol>
+            </p>
+        </section>
+        <section class="obj">
+            <h2 style="float: center;">
+                Objectives
+            </h2>
+            <p>
+                Other than doing Alt+F, X to get File > Exit command, you can press Alt key then use the cursor keys to
+                navigate edit.com menu system.
+                The (possibly) expected function of using the mouse to click on the File command does not work by
+                default. This is because the DOS Window properties have "Edit Options" enabled for "QuickEdit Mode" and
+                "Insert Mode". Click on the top left of the DOS Window then "Properties", and then disable those two
+                "Edit Options", and you will be able to use the mouse to execute commands on the edit.com menu bar.
+            </p>
+        </section>
+        <section id="image">
+            <img src="images/about.jpeg" alt="image">
+        </section>
+    </div>
+    <footer>
+        @copy Jm
+    </footer>
+</body>
+
+</html>
